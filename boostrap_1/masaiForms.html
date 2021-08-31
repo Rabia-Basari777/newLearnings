@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body class="bg-dark">
+    <div class="container bg-white col-5">
+        <h5>Billing Address</h5>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">First name</label>
+                    <input type="email" class="form-control col-form-label-sm" id="inputEmail4">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Last name</label>
+                    <input type="password" class="form-control col-form-label-sm" id="inputPassword4">
+                </div>
+                <label for="inputAddress2" class="form-label mx-2">Username</label>
+                <div class="input-group mx-2">
+                    <span class="input-group-text col-form-label-sm" id="basic-addon1">@</span>
+                    <input type="text" class="form-control col-form-label-sm" placeholder="Username" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+                <div class="form-group mx-1 mt-2 col-md-12 pr-2">
+                    <label for="inputEmail4">Email (Optional)</label>
+                    <input type="email" class="form-control col-form-label-sm" id="inputEmail4" placeholder="you@example.in">
+                </div>
+                <div class="form-group mx-1 mt-1 col-md-12 pr-2">
+                    <label for="inputEmail4">Address</label>
+                    <input type="email" class="form-control col-form-label-sm" id="inputEmail4" placeholder="1234 Main St">
+                </div>
+                <div class="form-group mx-1 mt-1 col-md-12 pr-2">
+                    <label for="inputEmail4">Address (Optional)</label>
+                    <input type="email" class="form-control col-form-label-sm" id="inputEmail4" placeholder="Appartment or suite">
+                </div>
+                <div class="row">
+                    <div class="col ml-2">
+                        <label for="inlineFormCustomSelect">Country</label>
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="inlineFormCustomSelect">State</label>
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="col mr-2">
+                        <label for="validationTooltip05">Zip</label>
+                        <input type="text" class="form-control" id="validationTooltip05" required >
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-4 border-left-0 border-right-0">
+                <div class="form-check pt-3">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        Shipping address is the same as my billing address
+                    </label>
+                </div>
+                <div class="form-check pb-3">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        Save this information for next time
+                    </label>
+                </div>
+            </div>
+            <p class="mt-2 mb-3 font-weight-bold">Payment</p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Credit card
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Debit card
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    PayPal
+                </label>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">First name</label>
+                    <input type="email" class="form-control col-form-label-sm" id="inputEmail4">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Last name</label>
+                    <input type="password" class="form-control col-form-label-sm" id="inputPassword4">
+                </div>
+            </div>
+            <P class="text-muted pb-3">Full name as displayed on card</P>
+        </form>
+    </div>
+</body>
+</html>
